@@ -96,8 +96,8 @@ var friendsArray = [
 		]
 	},
 	{
-		name: 'Beyonce Knowles',
-		photo: 'http://www.billboard.com/files/styles/article_main_image/public/media/beyonce-feb-2014-billboard-650.jpg',
+		name: 'Maui',
+		photo: 'https://media0.giphy.com/media/VXuKUKAgUgRlm/giphy.gif',
 		scores: [
 			'5',
 			'4',
@@ -112,8 +112,8 @@ var friendsArray = [
 		]
 	},
 	{
-		name: 'Adele Adkins',
-		photo: 'https://i1.imgiz.com/data/videoshots/6829/6829475-6461.jpg',
+		name: 'Pumba',
+		photo: 'https://media2.giphy.com/media/HEMPNEL1T8QCI/giphy.gif',
 		scores: [
 			'5',
 			'2',
@@ -128,8 +128,8 @@ var friendsArray = [
 		]
 	},
 	{
-		name: 'Kermit the Frog',
-		photo: 'http://i.dailymail.co.uk/i/pix/2015/09/02/08/2BE5406100000578-3218820-image-m-25_1441179775589.jpg',
+		name: 'Olaf',
+		photo: 'https://media0.giphy.com/media/cOmKweWa4w0XS/giphy.gif',
 		scores: [
 			'5',
 			'5',
@@ -144,8 +144,8 @@ var friendsArray = [
 		]
 	},
 	{
-		name: 'Elmo',
-		photo: 'http://1rjm5qg4v8732kpmn44ya6bj-wpengine.netdna-ssl.com/wp-content/uploads/2012/11/elmo-6601.png',
+		name: 'Aladdin',
+		photo: 'https://media3.giphy.com/media/3Jhdg8Qro5kMo/giphy.gif',
 		scores: [
 			'1',
 			'1',
