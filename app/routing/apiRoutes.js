@@ -6,7 +6,7 @@ var bodyParser = require("body-parser");
 // Star Wars Characters (DATA)
 // =============================================================
 var surveyResults = [];
-var friends =
+
 module.exports = function(app) {
   
 //   // Search for Specific Character (or all characters) - provides JSON
