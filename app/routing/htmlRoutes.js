@@ -1,16 +1,17 @@
-//Dependencies
+// Pull in required dependencies
 var path = require('path');
 
-//ROUTING
+// Export HTML routes
+module.exports = function(app) {
+// console.log('___ENTER htmlRoutes.js___');
 
-module.exports = function(app){
-  //default GET route that leads to home.html - displays home page
-  app.get('/survey', function (req, res) {
-    res.sendFile(path.join(__dirname + '/../public/survey.html'));
-  });
+// Home page
+   app.get('/', function(req, res) {
+        res.sendFile(path.join(__dirname, '../public/home.html'));
+});
 
-  //a USE route to home page
-  app.use(function (req, res) {
-    res.sendFile(path.join(__dirname + '/../public/home.html'));
-  });
+// Survey page
+   app.get('/survey', function(req, res) {
+		res.sendFile(path.join(__dirname, '../public/survey.html'));
+	});
 };
