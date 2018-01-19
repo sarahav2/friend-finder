@@ -7,8 +7,8 @@ Friend Finder implements friend matching based on the user's responses to a ten 
 https://damp-forest-65555.herokuapp.com
 
 ## Images
-![ffinder] (/images/ffinder.png)
-![ffinder] (/images/ffinder2.png)
+* ![ffinder] (/images/ffinder.png)
+* ![ffinder] (/images/ffinder2.png)
 
 ## Technologies Used
 * Node.js
@@ -17,7 +17,7 @@ https://damp-forest-65555.herokuapp.com
 * path NPM Package - https://www.npmjs.com/package/path
 
 ## Built With
-* Sublime Text - Text Editor
+* VS Code - Text Editor
 * Materialize - Wireframe
 
 ## Authors
