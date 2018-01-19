@@ -129,7 +129,7 @@
                     <option value="5">5 (Strongly Agree)</option>
                 </select>
                 <br>
-                <!-- Materialize Modal Trigger/Submit Button -->
+                <!-- Materialize Button -->
                 <button type ="submit" data-target="modal1" class="waves-effect waves-light btn modal-trigger cyan lighten-1" id="submitBtn">Submit</button>
             </div>
         </div>
@@ -137,7 +137,6 @@
             <p><a href='/api/friends'>API Disney List</a> | <a href='https://github.com/sarahav2/friend-finder' target='_blank'>GitHub Repo</a></p>
         </div>
 
-        <!-- Materialize Modal Structure -->
         <div id="modal1" class="modal">
           <div class="modal-content">
             <h4>Found Your Alter Ego!!!</h4>
@@ -170,7 +169,7 @@ $(document).ready(function() {
             });
             return isValid;
         }
-        //if everything is filled
+        
         if (validateForm() == true) {
             //creates a new friend from the values submitted
             var newFriend = {
@@ -197,9 +196,7 @@ $(document).ready(function() {
                 $("#matchName").text(data.name);
                 $("#matchPic").attr("src", data.profilePic);
             });
-            // Show the modal with the best match
                 $('.modal').modal();
-            //clear form after submission
             $('#name').val("");
             $('#photo').val("");
             $('#q1').val("");
@@ -215,7 +212,7 @@ $(document).ready(function() {
         } else {
             alert("Please fill out ALL fields before submitting survey!")
         }
-        // return false;
+    
     });
 });
 </script>
